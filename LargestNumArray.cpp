@@ -7,21 +7,21 @@ using namespace std;
 
 int main()
 {
-    int i, n;
+    int i, number;
     float array[100];
 
     cout << "Enter total number of elements: ";
-    cin >> n;
+    cin >> number;
     cout << endl;
 
     // Store number entered
-    for (i = 0; i < n; ++i) {
+    for (i = 0; i < number; ++i) {
         cout << "Enter Number " << i + 1 << " : ";
         cin >> array[i];
     }
     
     //Loop to store the largest number to array[0]
-    for (i = 1; i < n; ++i) {
+    for (i = 1; i < number; ++i) {
 
         // change < to > if you want to find the smallest element
         if (array[0] < array[i])

@@ -9,12 +9,11 @@
 using namespace std;
 int main()
 {
+    int a, b, c;
+    
+    
     //ask for 3 numbers
     cout << " Enter 3 numbers! " << endl;
-    int a;
-    int b;
-    int c;
-
     cout << "First number: ";
         cin >> a;
         cout << "Second number: ";
